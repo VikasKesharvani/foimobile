@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.nirhart.parallaxscroll.views.ParallaxScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:parallax_factor="3.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="45dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/appSecondColor"
+                    android:scaleType="center"
+                    android:src="@drawable/home_image" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:background="@color/appBackgroundColor"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="Group Catering &amp; PARTY SERVICE"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="We offer (and have done) catering for tourist groups from India or from elsewhere for upto 120 people. We understand their needs (including “JAIN FOOD” and can provide the expected service without compromising on food quality.
+
+We provide PARTY SERVICE and deliver food to to a venue of YOUR choice.
+
+TAKE AWAY Lunch / Dinner packs for trips outside Zürich
+
+CONVENIENT LOCATION
+The Flavour of India is ideally located for residents of the area, Zurich and neighbouring areas; arriving and departing travellers and or groups. It is the only restaurat which offers authentic Indian cuisine in the area of Kloten, a mere 5 minutes drive from the Zurich Airport, Hotels Hilton, Mövenpick, Renaissance and the Novotel. It is a 5 minute walk from the Swiss Star Apartments, Hotels Welcome Inn, Allegra, Flyaway and various important commercial centres located in Kloten and the surrounding areas.
+
+estaurant Flavour of India, Kalchengasse 12, CH – 8302 Kloten, Switzerland
+
+Mon – Fri: 08:00 to 01:00 / WARM KITCHEN: 11:30 to 13:30 and 18:00 to 22:00 hours
+Sat: 08:30 to 01:00 / WARM KITCHEN: 18:00 to 22:00
+Sun: 11:00 to 01:00 / WARM KITCHEN: 18:00 to 22:00
+COLD KITCHEN &amp; BEVERAGES ONLY AT ALL OTHER TIMES during opening hours specified above"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.nirhart.parallaxscroll.views.ParallaxScrollView>
+</LinearLayout>

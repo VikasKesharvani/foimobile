@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="foi.restaurant.com.flavourofindia.activity.TableBookingFormActivity"
+    tools:showIn="@layout/activity_table_booking_form">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/app_widget_margin_top"
+        android:paddingRight="@dimen/app_widget_margin_top"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textview_lable_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"/>
+        <EditText
+           android:id="@+id/online_booking_date_edittext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:background="@drawable/edit_text_border_background"
+            android:paddingLeft="@dimen/app_edit_text_padding_left"
+            android:hint="DD/MM/YY"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"
+            android:layout_marginRight="@dimen/app_widget_margin_top"
+            android:layout_height="@dimen/app_edit_text_height" />
+
+        <TextView
+            android:id="@+id/textview_lable_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"/>
+        <EditText
+            android:id="@+id/online_booking_time_edittext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:background="@drawable/edit_text_border_background"
+            android:paddingLeft="@dimen/app_edit_text_padding_left"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"
+            android:layout_marginRight="@dimen/app_widget_margin_top"
+            android:hint="00:00"
+            android:layout_height="@dimen/app_edit_text_height" />
+        <TextView
+            android:id="@+id/textview_lable_no_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No.Guest"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"/>
+        <EditText
+            android:id="@+id/online_booking_no_guest_edittext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:background="@drawable/edit_text_border_background"
+            android:paddingLeft="@dimen/app_edit_text_padding_left"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"
+            android:layout_marginRight="@dimen/app_widget_margin_top"
+
+            android:layout_height="@dimen/app_edit_text_height" />
+        <TextView
+            android:id="@+id/textview_lable_smoker_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smoker Table"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"/>
+          <Spinner
+              android:layout_width="match_parent"
+              android:layout_marginTop="@dimen/app_widget_margin_top"
+              android:background="@drawable/edit_text_border_background"
+              android:paddingLeft="@dimen/app_edit_text_padding_left"
+              android:layout_marginLeft="@dimen/app_widget_margin_top"
+              android:layout_marginRight="@dimen/app_widget_margin_top"
+
+              android:layout_height="@dimen/app_edit_text_height" ></Spinner>
+        <TextView
+            android:id="@+id/textview_lable_faimley_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family Name (!)"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"/>
+        <EditText
+            android:id="@+id/online_booking_famliy_name_edittext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:background="@drawable/edit_text_border_background"
+            android:paddingLeft="@dimen/app_edit_text_padding_left"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"
+            android:layout_marginRight="@dimen/app_widget_margin_top"
+
+            android:layout_height="@dimen/app_edit_text_height" />
+        <TextView
+            android:id="@+id/textview_lable_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"/>
+        <EditText
+            android:id="@+id/online_booking_name_edittext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:background="@drawable/edit_text_border_background"
+            android:paddingLeft="@dimen/app_edit_text_padding_left"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"
+            android:layout_marginRight="@dimen/app_widget_margin_top"
+
+            android:layout_height="@dimen/app_edit_text_height" />
+        <TextView
+            android:id="@+id/textview_lable_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"/>
+        <EditText
+            android:id="@+id/online_booking_phone_edit_text"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:background="@drawable/edit_text_border_background"
+            android:paddingLeft="@dimen/app_edit_text_padding_left"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"
+            android:layout_marginRight="@dimen/app_widget_margin_top"
+
+            android:layout_height="@dimen/app_edit_text_height" />
+        <TextView
+            android:id="@+id/textview_lable_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"/>
+        <EditText
+            android:id="@+id/online_booking_mobile_edittext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:background="@drawable/edit_text_border_background"
+            android:paddingLeft="@dimen/app_edit_text_padding_left"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"
+            android:layout_marginRight="@dimen/app_widget_margin_top"
+
+            android:layout_height="@dimen/app_edit_text_height" />
+        <TextView
+            android:id="@+id/textview_lable_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family Name (!)"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"/>
+        <EditText
+            android:id="@+id/online_booking_email_edittext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:background="@drawable/edit_text_border_background"
+            android:paddingLeft="@dimen/app_edit_text_padding_left"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"
+            android:layout_marginRight="@dimen/app_widget_margin_top"
+           android:inputType="textEmailAddress"
+            android:layout_height="@dimen/app_edit_text_height" />
+        <TextView
+            android:id="@+id/textview_lable_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"/>
+        <EditText
+            android:id="@+id/online_booking_message_edittext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:background="@drawable/edit_text_border_background"
+            android:paddingLeft="@dimen/app_edit_text_padding_left"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"
+            android:layout_marginRight="@dimen/app_widget_margin_top"
+            android:gravity="top|left"
+            android:layout_height="100dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/app_widget_margin_top"
+            android:textColor="@android:color/black"
+            android:text="Copy to Your Self"
+            android:layout_marginLeft="@dimen/app_widget_margin_top"/>
+            <Button
+                android:id="@+id/mbutton_send"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_edit_text_height"
+                android:layout_gravity="center"
+                android:text="Send"
+                android:layout_marginBottom="@dimen/app_widget_margin_top"
+                android:background="@drawable/button_background"/>
+    </LinearLayout>
+</ScrollView>
