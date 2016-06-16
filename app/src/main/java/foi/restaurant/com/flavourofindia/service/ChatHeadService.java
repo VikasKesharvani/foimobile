@@ -24,7 +24,7 @@ public class ChatHeadService extends Service {
     private WindowManager windowManager;
     private ImageView chatHead;
     WindowManager.LayoutParams params;
-
+//comiit
     @Override
     public void onCreate() {
         super.onCreate();
